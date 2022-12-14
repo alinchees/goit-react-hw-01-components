@@ -1,0 +1,22 @@
+.item{ 
+    width: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.statList{
+   display: flex;
+   
+}
+.statistics{ 
+    border-radius: 5px;
+    composes: item;
+    width: auto;
+    font-size: 14px;
+    margin-top: 40px;
+    background-color: rgba(237, 237, 237, 0.834);
+}
+.title{
+}
